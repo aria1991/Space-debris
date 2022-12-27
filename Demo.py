@@ -5,6 +5,8 @@ import numpy as np
 import pandas as pd
 import poliastro
 import urllib
+from mpl_toolkits.basemap import Basemap
+from io import StringIO
 
 # Retrieve data from satellite tracking database
 url = "https://www.space-track.org/basicspacedata/query/class/tle_latest/NORAD_CAT_ID/25544/orderby/EPOCH%20desc/format/tle"
